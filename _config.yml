@@ -16,14 +16,13 @@
 
 #######################################################################################
 # Jekyll site settings
-title: <center> Phase unwrapping based on integrated Fourier-domain and image-domain
-  analyses </center>
-author: Nan-kuei Chen
-email: zelenkastiot@gmail.com
+title: <center> Deep learning how to fit an intravoxel incoherent motion model to
+  diffusion-weighted MRI </center>
+author: Sebastiano Barbieri
+email: s.barbieri@unsw.edu.au
 description: >-
-  Report of a new postprocessing procedure that uses Fourier-domain data analyses
-  to improve the accuracy and reliability of phase unwrapping for MRI data of low
-  SNR.
+  This prospective clinical study assesses the feasibility of training a deep neural network (DNN) for intravoxel 
+  incoherent motion (IVIM) model fitting to diffusion weighted MRI (DWMRI) data and evaluates its performance.
 
 baseurl: /  # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: YOUR URL                  # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,15 +32,14 @@ url: YOUR URL                  # the base hostname & protocol for your site, e.g
 # Jupyter Book settings
 
 # Main page settings
-footer_text: This page was created by <a href="https://ismrm.github.io/mrhub/">MR-Hub</a>
-  Community
+footer_text: January, 2021
 
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
 collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
 collapse_inactive_sections: true  # Whether to collapse the sub-sections within a non-active section in the sidebar
 textbook_logo: images/logo/logo.png               # A logo to be displayed at the top of your textbook sidebar. Should be square
-textbook_logo_link: https://github.com/zelenkastiot/PhaseUnwrapping_book # A link for the logo.
+textbook_logo_link: https://github.com/Notebook-Factory/deep_ivim_book # A link for the logo.
 sidebar_footer_text: Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
 number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
@@ -71,9 +69,9 @@ jupyterhub_interact_text: Interact             # The text that interact buttons 
 use_binder_button: true                  # If 'true', add a binder button for interactive links
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
-binder_repo_org: Notebook-Factory           # The username or organization that owns this repository
-binder_repo_name: Phase-unwrapping-book            # The name of the repository on the web
-binder_repo_branch: master                     # The branch on which your textbook is hosted.
+binder_repo_org: 1vanjordanov           # The username or organization that owns this repository
+binder_repo_name: deep_ivim_book           # The name of the repository on the web
+binder_repo_branch: main                     # The branch on which your textbook is hosted.
 binderhub_interact_text: Launch Binder         # The text that interact buttons will contain.
 
 # Thebelab settings
