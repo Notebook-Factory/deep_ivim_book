@@ -1,30 +1,18 @@
 ***
-*Nan-kuei Chen* <sup>1,2,3*</sup>| *Pei-Hsin Wu* <sup>4,5*</sup>
+*Sebastiano Barbieri* | * Oliver J. Gurney‐Champion* | *Remy Klaassen* | *Harriet C. Thoeny*
 
 
-
-<sup>1</sup> Department of Biomedical Engineering, University of Arizona, Tucson, Arizona
-<br>
-<sup>2</sup> The BIO5 Institute, University of Arizona, Tucson, Arizona
-<br>
-<sup>3</sup> Brain Imaging and Analysis Center, Duke University Medical Center, Durham, North Carolina
-<br>
-<sup>4</sup> Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University, Taipei, Taiwan
-<br>
-<sup>5</sup> Department of Radiology, University of Pennsylvania, Philadelphia, Pennsylvania
-
-
-**Purpose**: We report a new postprocessing procedure that uses Fourier‐domain data analyses to improve the accuracy and reliability of phase unwrapping for MRI data of low SNR. <br />
-**Methods**: The developed method first identifies the Fourier‐domain energy peak locations corresponding to different image‐domain areas from which a robust measurement of image‐domain phase gradients can be obtained even for MRI data of low SNR. The phase‐gradient information measured from critical brain regions using the above‐mentioned Fourier‐domain analysis is then combined with the conventional temporal‐domain or spatial‐domain phase‐unwrapping procedure to remove phase wraps. The developed method was tested with MRI data obtained from 30 healthy adult volunteers, and its performance was quantitatively evaluated. <br />
-**Results**: The developed Fourier‐domain analysis could robustly quantify imagedomain phase gradients even for MRI data with low SNR (e.g., SNR ≃ 2). Experimental results show that the Fourier‐domain analyses could further reduce phase wrap artifact in data produced by the conventional temporal‐domain or spatialdomain phase‐unwrapping procedures. <br />
-**Conclusions**: Our results demonstrate that the developed phase‐unwrapping method can reduce residual phase wraps resulting from conventional procedures in critical brain regions (e.g., near the air‐tissue interfaces) and should prove valuable for studies that require accurate measurements of MRI phase values, such as QSM, B<sub>0</sub> field mapping, and temperature mapping.
+**Purpose**: This prospective clinical study assesses the feasibility of training a deep neural network (DNN) for intravoxel incoherent motion (IVIM) model fitting to diffusion‐weighted MRI (DW‐MRI) data and evaluates its performance.<br />
+**Methods**: In May 2011, 10 male volunteers (age range, 29–53 years; mean, 37) underwent DW‐MRI of the upper abdomen on 1.5T and 3.0T MR scanners. Regions of interest in the left and right liver lobe, pancreas, spleen, renal cortex, and renal medulla were delineated independently by 2 readers. DNNs were trained for IVIM model fitting using these data; results were compared to least‐squares and Bayesian approaches to IVIM fitting. Intraclass correlation coefficients (ICCs) were used to assess consistency of measurements between readers. Intersubject variability was evaluated using coefficients of variation (CVs). The fitting error was calculated based on simulated data, and the average fitting time of each method was recorded. <br />
+**Results**: DNNs were trained successfully for IVIM parameter estimation. This approach was associated with high consistency between the 2 readers (ICCs between 50% and 97%), low intersubject variability of estimated parameter values (CVs between 9.2 and 28.4), and the lowest error when compared with least‐squares and Bayesian approaches. Fitting by DNNs was several orders of magnitude quicker than the other methods, but the networks may need to be retrained for different acquisition protocols or imaged anatomical regions. <br />
+**Conclusions**: DNNs are recommended for accurate and robust IVIM model fitting to DW‐MRI data. Suitable software is available for download.
 <br />
 <br />
 *KEYWORDS* 
 <br />
-*Field inhomogeneities, Fourier‐domain analysis, MRI, phase unwrapping*
+*Cancer, Deep learning, Diffusion-weighted magnetic resonance imaging, IVIM, Neural network*
 
 
 
-**Corespondence**: Nan-kuei Chen, PhD, 1127 E.James E. Rogers Way, P.O.Box 210020, Tuscon, AZ 85721-0020. 
-Email: nkchen@email.arizona.edu
+**Corespondence**: Sebastiano Barbieri, Centre for Big Data Research in Health, UNSW, UNSW Sydney, NSW, 2052 Australia.
+<br> *Email:* s.barbieri@unsw.edu.au

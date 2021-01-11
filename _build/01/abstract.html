@@ -7,7 +7,7 @@ prev_page:
 next_page:
   url: /02/deep_ivim_demo.html
 suffix: .md
-search: sup br phase fourierdomain data mri university arizona analysis snr developed e brain low method imagedomain conventional phaseunwrapping results nan kuei chen department biomedical tucson institute center taiwan pennsylvania procedure analyses unwrapping gradients obtained even critical regions temporaldomain spatialdomain wraps g reduce procedures field mapping email pei hsin wu engineering bio imaging duke medical durham north carolina graduate electronics bioinformatics national taipei radiology philadelphia purpose report new postprocessing uses improve accuracy reliability methods identifies energy peak locations corresponding different areas robust measurement phasegradient information measured using abovementioned combined remove tested healthy adult volunteers its performance quantitatively evaluated robustly quantify experimental
+search: fitting br ivim data dnns between barbieri model dwmri readers unsw sebastiano deep neural network methods t regions renal trained using results compared leastsquares bayesian approaches coefficients iccs consistency intersubject variability cvs error parameter oliver j gurneychampion remy klaassen harriet c thoeny purpose prospective clinical study assesses feasibility training dnn intravoxel incoherent motion diffusionweighted mri evaluates its performance male volunteers age range years mean underwent upper abdomen mr scanners interest left right liver lobe pancreas spleen cortex medulla delineated independently intraclass correlation used assess measurements evaluated variation calculated based simulated average method recorded successfully estimation approach associated high low estimated
 
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
@@ -20,27 +20,18 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<p><em>Nan-kuei Chen</em> <sup>1,2,3*</sup>| <em>Pei-Hsin Wu</em> <sup>4,5*</sup></p>
-<p><sup>1</sup> Department of Biomedical Engineering, University of Arizona, Tucson, Arizona
-<br>
-<sup>2</sup> The BIO5 Institute, University of Arizona, Tucson, Arizona
-<br>
-<sup>3</sup> Brain Imaging and Analysis Center, Duke University Medical Center, Durham, North Carolina
-<br>
-<sup>4</sup> Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University, Taipei, Taiwan
-<br>
-<sup>5</sup> Department of Radiology, University of Pennsylvania, Philadelphia, Pennsylvania</p>
-<p><strong>Purpose</strong>: We report a new postprocessing procedure that uses Fourier‐domain data analyses to improve the accuracy and reliability of phase unwrapping for MRI data of low SNR. <br />
-<strong>Methods</strong>: The developed method first identifies the Fourier‐domain energy peak locations corresponding to different image‐domain areas from which a robust measurement of image‐domain phase gradients can be obtained even for MRI data of low SNR. The phase‐gradient information measured from critical brain regions using the above‐mentioned Fourier‐domain analysis is then combined with the conventional temporal‐domain or spatial‐domain phase‐unwrapping procedure to remove phase wraps. The developed method was tested with MRI data obtained from 30 healthy adult volunteers, and its performance was quantitatively evaluated. <br />
-<strong>Results</strong>: The developed Fourier‐domain analysis could robustly quantify imagedomain phase gradients even for MRI data with low SNR (e.g., SNR ≃ 2). Experimental results show that the Fourier‐domain analyses could further reduce phase wrap artifact in data produced by the conventional temporal‐domain or spatialdomain phase‐unwrapping procedures. <br />
-<strong>Conclusions</strong>: Our results demonstrate that the developed phase‐unwrapping method can reduce residual phase wraps resulting from conventional procedures in critical brain regions (e.g., near the air‐tissue interfaces) and should prove valuable for studies that require accurate measurements of MRI phase values, such as QSM, B<sub>0</sub> field mapping, and temperature mapping.
+<p><em>Sebastiano Barbieri</em> | <em> Oliver J. Gurney‐Champion</em> | <em>Remy Klaassen</em> | <em>Harriet C. Thoeny</em></p>
+<p><strong>Purpose</strong>: This prospective clinical study assesses the feasibility of training a deep neural network (DNN) for intravoxel incoherent motion (IVIM) model fitting to diffusion‐weighted MRI (DW‐MRI) data and evaluates its performance.<br />
+<strong>Methods</strong>: In May 2011, 10 male volunteers (age range, 29–53 years; mean, 37) underwent DW‐MRI of the upper abdomen on 1.5T and 3.0T MR scanners. Regions of interest in the left and right liver lobe, pancreas, spleen, renal cortex, and renal medulla were delineated independently by 2 readers. DNNs were trained for IVIM model fitting using these data; results were compared to least‐squares and Bayesian approaches to IVIM fitting. Intraclass correlation coefficients (ICCs) were used to assess consistency of measurements between readers. Intersubject variability was evaluated using coefficients of variation (CVs). The fitting error was calculated based on simulated data, and the average fitting time of each method was recorded. <br />
+<strong>Results</strong>: DNNs were trained successfully for IVIM parameter estimation. This approach was associated with high consistency between the 2 readers (ICCs between 50% and 97%), low intersubject variability of estimated parameter values (CVs between 9.2 and 28.4), and the lowest error when compared with least‐squares and Bayesian approaches. Fitting by DNNs was several orders of magnitude quicker than the other methods, but the networks may need to be retrained for different acquisition protocols or imaged anatomical regions. <br />
+<strong>Conclusions</strong>: DNNs are recommended for accurate and robust IVIM model fitting to DW‐MRI data. Suitable software is available for download.
 <br />
 <br />
 <em>KEYWORDS</em> 
 <br />
-<em>Field inhomogeneities, Fourier‐domain analysis, MRI, phase unwrapping</em></p>
-<p><strong>Corespondence</strong>: Nan-kuei Chen, PhD, 1127 E.James E. Rogers Way, P.O.Box 210020, Tuscon, AZ 85721-0020. 
-Email: nkchen@email.arizona.edu</p>
+<em>Cancer, Deep learning, Diffusion-weighted magnetic resonance imaging, IVIM, Neural network</em></p>
+<p><strong>Corespondence</strong>: Sebastiano Barbieri, Centre for Big Data Research in Health, UNSW, UNSW Sydney, NSW, 2052 Australia.
+<br> <em>Email:</em> s.barbieri@unsw.edu.au</p>
 
 </div>
 </div>
