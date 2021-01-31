@@ -15,6 +15,8 @@
   url: /02/deep_ivim_demo
   not_numbered: true
   
+- url: /03/deep_ivim_plotly
+  not_numbered: true
 - divider: true
 
 - title: GitHub repository
